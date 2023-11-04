@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteinar{
+
+    background-color: #040714;
+
+}
+
+
+.ilk-conteinar .arka-plan1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.ilk-conteinar .arka-plan1 img{
+
+    width: 100%;
+}
+.ilk-conteinar .navbar{
+    width: 100%;
+    background-color: #11113c;
+    display: flex;
+    height: 80px;
+    opacity: 0.7;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+.ilk-conteinar .navbar img{
+    width: 80px;
+    margin: auto;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+
+.ilk-conteinar .navbar .nav-buttons{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+
+.ilk-conteinar .navbar .nav-buttons .navbut-1{
+    width: 160px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #0063e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.ilk-conteinar .navbar .nav-buttons .navbut-2{
+    width: 160px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim{
+
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    font-size: x-large;
+    
+
+}
+
+
+
+
+.ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim h2{
+    text-align: center;
+    text-wrap: balance;
+}
+
+.ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim button{
+
+    border: none;
+    background-color: #0063e5;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+.ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim .mrg{
+    margin: 20px;
+}
+
+.ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim .not{
+    font-size: 12px;
+    margin: 20px;
+}
+
+.ilk-conteinar .arka-plan1 svg :hover{
+
+    cursor: pointer;
+
+}
+
+.conteinar-2{
+
+    width: 100%;
+    
+
+}
+
+.conteinar .conteinar-2 .arka-plan2{
+    display: flex;
+    width: 100%;
+    height: 1357px;
+    flex-direction: column-reverse;
+    
+}
+
+.conteinar .conteinar-2  .con-2-text{
+
+    position: relative;
+    bottom: 455px;
+    color: white;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 99px;
+    cursor:auto;
+}
+
+.conteinar .conteinar-2  .con-2-text h1{
+
+    font-size: 44px;
+}
+
+.conteinar .conteinar-2 .ara-baslik{
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+    font-size: x-large;
+}
+
+.conteinar .media-tv .tv-conteinar img{
+
+    width: 100%;
+    margin: 0;
+    
+}
+.conteinar .media-tv .media-conteinar{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 75px;
+}
+
+.conteinar .media-tv .media-conteinar img{
+        width: 405px;
+        margin-top: 20px;
+}
+
+.conteinar .media-tv .media-conteinar h2,h4{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: x-large;
+
+
+}
+
+.conteinar .media-tv .media-conteinar h4{
+    color: silver ;
+    font-size: 20px;
+}
+
+.conteinar .media-tv .media-conteinar .izleyici-conteinar .metin-1, .metin-2{
+    
+    width: 300px;
+    text-align: center;
+}
+
+.conteinar .media-tv .media-conteinar .izl-ci{
+
+    margin-left: -20px;
+}
+
+.conteinar .sorular-conteinar .sorular-baslik{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    
+
+}
+
+.conteinar .sorular-conteinar .sorular {
+
+    width: 95%;
+    text-align: start;
+    margin: auto;
+
+}
+
+
+.conteinar .sorular-conteinar .sorular div{
+
+    border: 1px solid #343232;
+    
+    color: white;
+    margin: 15px;
+    background-color: #343232;
+    cursor: pointer;
+}
+
+.conteinar .sorular-conteinar .sorular div h3{
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.conteinar .sorular-conteinar .sorular-baslik h1{
+
+    margin: 55px;
+
+    
+}
+
+.conteinar .fav-conteinar .fav-baslik{
+
+    text-align: center;
+    color: white;
+    font-size: larger;
+    margin-top: 150px;
+}
+
+.conteinar .fav-conteinar .fav-baslik h1{
+
+    margin: 20px;
+   
+}
+
+
+.conteinar .fav-conteinar .fav-araclar{
+
+    display: flex;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar div{
+
+    margin: auto;
+   
+
+}
+
+.conteinar .fav-conteinar .fav-araclar .tv-text img{
+
+    width:250px ;
+
+}
+
+
+.conteinar .fav-conteinar .fav-araclar .pc-text img{
+
+    width: 300px;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar .mobil-text img{
+
+    width: 299px;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar .consol-text img{
+
+    width: 242px ;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar .tv-text{
+
+    text-align: center;
+    color: white;
+
+}
+
+
+.conteinar .fav-conteinar .fav-araclar .pc-text{
+
+    margin-top: -7px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.conteinar .fav-conteinar .fav-araclar .mobil-text{
+
+    margin-top: 1px;
+    text-align: center;
+    color: white;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar .consol-text{
+
+    margin-top: 28px;
+    text-align: center;
+    color: white;
+
+}
+
+.conteinar .fav-conteinar .fav-araclar div h3{
+
+color: silver;
+
+margin: 10px;
+
+}
+
+.conteinar .hakkimda-conteinar{
+
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.conteinar .hakkimda-conteinar img{
+
+    width: 100px;
+    margin-top: 100px;
+}
+
+.conteinar .hakkimda-conteinar ol{
+
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    cursor: pointer;
+
+
+
+}
+
+.conteinar .hakkimda-conteinar ol li {
+
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+
+.conteinar .hakkimda-conteinar .son-text{
+    margin-top: 50px;
+}
+
+
+.conteinar .hakkimda-conteinar .son-text p{
+    height: 100px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteinar .media-tv .media-conteinar{
+        display: flex;
+        flex-direction: column;
+        padding: 65px;
+    }
+
+
+    .ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim{
+
+        text-align: center;
+        font-size: 27px;
+        color: white;
+        position: absolute;
+        bottom: 4px;
+        font-size: xx-small;
+        
+    
+    }
+    .ilk-conteinar .arka-plan1 {
+        top: 80px;
+    }
+    .conteinar .conteinar-2 .arka-plan2{
+
+        height: 860px;
+    }
+
+    .ilk-conteinar .arka-plan1 .ilk-bolum-sonkisim .mrg {
+        margin: 20px;
+        
+        font-size: large;
+
+    }
+
+    .conteinar .conteinar-2 .con-2-text h1{
+        font-size: 36px;
+    }
+    .conteinar .conteinar-2 .con-2-text {
+        position: relative;
+        bottom: 354px;
+        color: white;
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 46px;
+        cursor: auto;
+    }
+
+    .conteinar .fav-conteinar .fav-araclar {
+        display: flex;
+        flex-direction: column;
+    }
+    .media-tv .media-conteinar .izleyici-conteinar{
+
+        margin-left: 21px;
+
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
